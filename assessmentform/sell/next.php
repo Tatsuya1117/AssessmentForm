@@ -2,6 +2,9 @@
 if(isset($_POST['home4u_prefecture'])) {
 	$home4u_prefecture = $_POST['home4u_prefecture'];
 }
+if(isset($_POST['home4u_city'])) {
+	$home4u_city = $_POST['home4u_city'];
+}
 ?>
 <!DOCTYPE html>
 <html lang="ja" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
@@ -113,7 +116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <dt class="formTh">物件の所在地<span class="requiredIco">必須</span></dt>
 <dd class="formTd">
  
-<p>■都道府県<br>
+<p>■選択した地域<br>
 <span class="inlineWrap">
 <select name="prefecture_code" class="def" data-custom-select>
 <option value=""><?php echo $home4u_prefecture; ?></option>
@@ -200,16 +203,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>■市区町村<br>
 <span class="inlineWrap">
 <select name="city_code" class="def" data-custom-select>
-<option value="">お選びください</option>
+<option value=""><?php echo $home4u_city; ?></option>
 </select>
 </span>
 </p>
 
-	
 <p>■町字<br>
 <span class="inlineWrap">
 <select name="property_townname" class="def" data-custom-select>
-<option value="">お選びください</option>
+<option value=""></option>
 </select>
 </span>
 </p>
