@@ -76,49 +76,45 @@ if (isset($_POST['text_input'])) {
 	<option value="児島">児島</option>
 </optgroup>
 <optgroup label="井笠エリア">
-	<option value="2">青森県</option>
-	<option value="3">岩手県</option>
-	<option value="4">宮城県</option>
-	<option value="5">秋田県</option>
-	<option value="6">山形県</option>
-	<option value="7">福島県</option>
+	<option value="井原市">井原市</option>
+	<option value="矢掛市">矢掛市</option>
+	<option value="笠岡市">笠岡市</option>
+	<option value="浅口市">浅口市</option>
+	<option value="里庄市">里庄市</option>
 </optgroup>
 <optgroup label="高梁エリア">
-	<option value="15">新潟県</option>
-	<option value="19">山梨県</option>
-	<option value="20">長野県</option>
+	<option value="高梁市">高梁市</option>
+	<option value="高梁">高梁</option>
+	<option value="陣山">陣山</option>
 </optgroup>
 <optgroup label="新見エリア">
-	<option value="16">富山県</option>
-	<option value="17">石川県</option>
-	<option value="18">福井県</option>
+	<option value="新見市">新見市</option>
+	<option value="新見">新見</option>
+	<option value="千屋">千屋</option>
 </optgroup>
 <optgroup label="真庭エリア">
-	<option value="23">愛知県</option>
-	<option value="22">静岡県</option>
-	<option value="21">岐阜県</option>
-	<option value="24">三重県</option>
+	<option value="真庭市">真庭市</option>
+	<option value="上長田">上長田</option>
+	<option value="新庄村">新庄村</option>
+	<option value="久世">久世</option>
+	<option value="下呰部">下呰部</option>
 </optgroup>
 <optgroup label="津山エリア">
-	<option value="27">大阪府</option>
-	<option value="28">兵庫県</option>
-	<option value="25">滋賀県</option>
-	<option value="26">京都府</option>
-	<option value="29">奈良県</option>
-	<option value="30">和歌山県</option>
+	<option value="津山市">津山市</option>
+	<option value="美咲町">美咲町</option>
+	<option value="久米南町">久米南町</option>
+	<option value="鏡野町">鏡野町</option>
 </optgroup>
 <optgroup label="勝英エリア">
-	<option value="33">岡山県</option>
-	<option value="34">広島県</option>
-	<option value="31">鳥取県</option>
-	<option value="32">島根県</option>
-	<option value="35">山口県</option>
+	<option value="奈義町">奈義町</option>
+	<option value="西粟倉村">西粟倉村</option>
+	<option value="勝央町">勝央町</option>
+	<option value="美作市">美作市</option>
 </optgroup>
 <optgroup label="東備エリア">
-	<option value="37">香川県</option>
-	<option value="38">愛媛県</option>
-	<option value="39">高知県</option>
-	<option value="36">徳島県</option>
+	<option value="備前市">備前市</option>
+	<option value="和気町">和気町</option>
+	<option value="赤磐市">赤磐市</option>
 </optgroup>
 <optgroup label="他県エリア">
 	<option value="鳥取県">鳥取県</option>
